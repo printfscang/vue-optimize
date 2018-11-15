@@ -6,3 +6,4 @@ const Home = r =>require.ensure([依赖的模块数组],回调函数，模块名
 例如：
 const Home =r=>  require([],()=>r(require('@/components/home.vue')),‘Home’)
 ```
+## sass-loader node-sass style-loader编译scss文件
